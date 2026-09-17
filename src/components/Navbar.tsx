@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar: React.FC = () => {
   return (
     <header className="w-full bg-white border-b border-gray-100 sticky top-0 z-50">
-      {/* max-w-7xl ar mx-auto use korlei du pashe figma-er moto space chole ashbe */}
+    
       <div className="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
         
         {/* Left: Logo & Brand Name */}
