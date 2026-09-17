@@ -1,12 +1,11 @@
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white font-sans selection:bg-pink-500 selection:text-white">
       <Navbar />
-      <main className="p-8">
-        <h1 className="text-2xl font-semibold text-gray-800">Welcome to my project! 🚀</h1>
-      </main>
+      <Hero />
     </div>
   );
 }
