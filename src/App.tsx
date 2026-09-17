@@ -1,14 +1,18 @@
+import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Technologies from './components/Technologies';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gray-50/50 font-sans selection:bg-pink-500 selection:text-white">
+    <div className="min-h-screen bg-gray-50 flex flex-col justify-between">
       <Navbar />
-      <Hero />
-      <div className="border-t border-gray-100 my-8"></div>
-      <Technologies />
+      <main>
+        <Hero />
+        <Technologies />
+      </main>
+      <Footer />
     </div>
   );
 }
